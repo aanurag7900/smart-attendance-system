@@ -129,11 +129,6 @@ def get_attendance():
             "success": False,
             "message": f"Error fetching attendance: {str(e)}"
         }), 500
-
-
-
-
-
-
+    
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
